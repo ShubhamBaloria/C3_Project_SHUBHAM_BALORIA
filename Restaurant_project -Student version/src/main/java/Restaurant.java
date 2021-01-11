@@ -72,6 +72,7 @@ public class Restaurant {
     }
 
     public Integer calculateOrderTotal(int... inputs) {
+
         return null;
     }
 }

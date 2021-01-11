@@ -71,6 +71,6 @@ class RestaurantTest {
     @Test
     public void calculateOrderTotal_should_return_388_after_adding_the_119_and_269(){
         Integer orderTotal = restaurant.calculateOrderTotal(119,269);
-        assertEquals(388,restaurant.calculateOrderTotal());
+        assertEquals(388,orderTotal);
     }
 }
